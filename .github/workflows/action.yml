@@ -31,6 +31,7 @@ jobs:
 
       - name: Build Nekoray
         run: |
+          apt-get install git
           git config --global user.email "$wangzhou_25@163.com"
           git config --global user.name "wangzhou25"
           bash builder.sh
