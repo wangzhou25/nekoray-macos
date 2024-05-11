@@ -3,7 +3,7 @@
 set -e
 
 # Initialize and configure
-export MACOSX_DEPLOYMENT_TARGET="10.15"
+export MACOSX_DEPLOYMENT_TARGET="10.13.6"
 
 # Remove unnecessary directories if running in GitHub Actions
 if [ -n "$GITHUB_ACTIONS" ]; then
